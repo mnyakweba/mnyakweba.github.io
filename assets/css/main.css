@@ -1681,3 +1681,33 @@ input, select, textarea {
         line-height: 3.75rem;
     }
 }
+/* Style for the donate section */
+.donate-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* Style for the donate button */
+.donate-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ff4500; /* You can choose a color that fits your theme */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.donate-button:hover {
+    background-color: #e43f00; /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .donate-button {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+    }
+}
