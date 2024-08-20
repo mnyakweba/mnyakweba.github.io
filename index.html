@@ -84,6 +84,22 @@
 									<li><b>Routing Number for Wire Transfers (RTN):</b> 121000248</li>
 									<li><b>Address:</b> 4060 Gershwin Ave, Apt 210, Oakdale, MN 55128-2834</li>
 								</ul>
+
+									<form action="https://your-wells-fargo-payment-url" method="POST">
+									  <label for="donation-amount">Donation Amount (USD):</label>
+									  <input type="number" id="donation-amount" name="amount" step="0.01" min="1" required>
+									  
+									  <!-- Add additional form fields as required by Wells Fargo -->
+									  
+									  <input type="hidden" name="merchant_id" value="your-merchant-id">
+									  <input type="hidden" name="currency" value="USD">
+									  <input type="hidden" name="return_url" value="https://your-website.com/payment-success">
+									  <input type="hidden" name="cancel_url" value="https://your-website.com/payment-cancelled">
+
+									  <button type="submit">Donate Now with Wells Fargo</button>
+									</form>
+
+
 								<p>We are also happy to provide additional details or answer any questions you may have about this project. Click <b>here</b> to reach out for more information or to discuss other ways you might be able to contribute.</p>
 								<p>Together, we can create a space that not only serves as a sanctuary for worship but also as a beacon of hope, healing, and education. We invite you to be part of this transformative journey and help us make a lasting impact in the lives of many.</p>
 								<p><b>Thank you for your prayerful consideration and generous support.</b></p>
@@ -93,8 +109,8 @@
 							<article id="about">
 								<h2 class="major">Why be healthy?</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>We need health to be alive and effectively listen, and respond positively to the work of the Lord. A sick person needs extra energy to heal.</p>
-								<p>In Matthew chapter 28:18-20, Jesus said, "All authority has been given to Me in heaven and on earth. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that i have commanded you; and lo, I am with you always, even to the end of the age." (Amang'ana omotwe) - Christian charter.</p>
+								<p>We need health to be alive and effectively listen, and respond positively to the work of the Lord. If we are unwell, we may not be able to take the message to the whole world effectively.</p>
+								<p>In Matthew chapter 28:18-20, Jesus said, "All authority has been given to Me in heaven and on earth. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age."</p>
 								<p>In light of the above, we need health not necessarily to enjoy or be proud about it, but to be able to work as per the commission given by Jesus. Jesus came for us all and every human being has an equal opportunity to be saved and anyone who calls upon Jesus in faith will be saved.</p>
 								<p>It is my and your responsibility to know and tell all nations about Jesus, and what He is saying. For that purpose, we need life and health to be able to effectively live by, and take that message to people. The recipients also have to be alive and healthy, to be able to accept to hear, and interpret that message correctly, then make the right choice of obeying and living according to the ten commandments of God. All other good reasons for health may be added benefits.</p>
 								<p>It is very important then to understand from the very beginning that, there are laws governing health, and that we are responsible to bring our individual life practices into harmony with those laws. Thus is the main purpose of <b>Bethlehem Telephone Sanitarium Inc.</b></p>
@@ -102,19 +118,19 @@
 
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">Contact</h2>
+								<h2 class="major">Contact us below</h2>
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
+											<label for="name">Your Name</label>
 											<input type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
-											<label for="email">Email</label>
+											<label for="email">Your Email</label>
 											<input type="text" name="email" id="email" />
 										</div>
 										<div class="field">
-											<label for="message">Message</label>
+											<label for="message">Your Message</label>
 											<textarea name="message" id="message" rows="4"></textarea>
 										</div>
 									</div>
@@ -124,10 +140,9 @@
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									
 								</ul>
 							</article>
 
